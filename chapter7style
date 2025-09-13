@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'testfont';
+    src: url('BitcountGridDouble.ttf');
+}
+
+body{
+    font-family: 'testfont';
+    background-color: #f8f8d2;
+}
+
+ol{
+    background-color: rgba(255, 99, 71, 0.5);
+    margin: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+main p{
+    background-color: #b5b5b5;
+    color: #000000;
+    box-shadow: 5px 10px #606060;
+}
+
+p{
+    margin: 50px;
+    padding: 25px;
+}
+
+.skyblue{
+    background-color: #58cefc;
+    color: #ffffff;
+    box-shadow: 5px 10px #199ecf;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.centerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
