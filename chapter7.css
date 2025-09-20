@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'testfont';
+    src: url('Asimovian-Regular.ttf');
+}
+
+
+
+/* Global Attributes */
+body{
+    font-family: 'testfont';
+    background-color: #3E1E68; /*  */
+}
+/* Global Attributes */
+
+
+
+/* Paragraph Attributes */
+p{
+    margin: 50px;
+    padding: 25px;
+}
+/* Paragraph Attributes */
+
+
+
+/* Ordered Lists Attributes */
+ol{
+    background-color: #5D2F77; /*  */
+    margin: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/* Ordered Lists Attributes */
+
+
+
+/* Book Header Attributes */
+.book-header {
+    background-color: #E45A92;
+    box-shadow: 5px 10px #bc2955;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.book-header h1, .book-header h2 {
+    margin: 5px 0;
+}
+/* Book Header Attributes */
+
+
+
+/* Main Header Attributes */
+.mainHeader{
+    background-color: #E45A92; /*  */
+    box-shadow: 5px 10px #bc2955; /*  */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+/* Main Header Attributes */
+
+
+
+/* Chapter Title Attributes */
+.chapterTitle{
+
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    border: 3px solid #FFACAC; /*  */
+    background-color: #ea064a; /*  */
+    padding: 10px;
+    text-align: center;
+}
+/* Chapter Title Attributes */
+
+
+
+/* Main Paragraph Attributes */
+main p{
+    background-color: #FFACAC; /*  */
+    box-shadow: 5px 10px #ff7a7a; /*  */
+}
+/* Main Paragraph Attributes */
+
+
+
+/* Center Image Attributes */
+.centerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* Center Image Attributes */
+
+
+
+/* Book Footer Attributes */
+.bookFooter {
+    background-color: #ea064a; /*  */
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Book Footer Attributes */
+
+
+
+/* Book Footer Paragraph Attributes */
+.bookFooter p {
+    margin: 5px 0;
+}
+/* Book Footer Paragraph Attributes */
+
+
+
+/* Root Attributes */
+:root {
+    --main-color: #E45A92; /*  */
+    --secondary-color: #FFACAC; /*  */
+    --accent-color: #3E1E68; /*  */
+    --sub-accent-color: #5D2F77; /*  */
+    --contrast-color: #ea064a; /*  */
+}
+/* Root Attributes */
